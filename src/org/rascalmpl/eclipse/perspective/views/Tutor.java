@@ -92,9 +92,10 @@ public class Tutor extends ViewPart {
 
 	@Override
 	public void createPartControl(Composite parent) {
-		browser = new Browser(parent, SWT.NONE);
-		browser.setText("<html><body>The Rascal tutor is now loading: <progress max=\"100\"></progress></body></html>");
-		new StarterJob().schedule();
+		return;
+//		browser = new Browser(parent, SWT.NONE);
+//		browser.setText("<html><body>The Rascal tutor is now loading: <progress max=\"100\"></progress></body></html>");
+//		new StarterJob().schedule();
 	}
 
 	@Override

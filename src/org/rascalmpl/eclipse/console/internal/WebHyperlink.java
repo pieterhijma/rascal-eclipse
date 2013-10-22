@@ -37,13 +37,13 @@ public class WebHyperlink implements IHyperlink {
 			}
 			else {
 				// open a link in an external browser
-				PlatformUI.getWorkbench().getBrowserSupport().getExternalBrowser().openURL(new URL(link));
+				//PlatformUI.getWorkbench().getBrowserSupport().getExternalBrowser().openURL(new URL(link));
 			}
 		} catch (PartInitException e) {
 			e.printStackTrace();
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		}
+		} //catch (MalformedURLException e) {
+			//e.printStackTrace();
+		//}
 	}
 
 }
